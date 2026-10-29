@@ -1,0 +1,76 @@
+# ==================== 操作系统生成文件 ====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# Linux
+*~
+
+# ==================== IDE 与编辑器配置 ====================
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+.project
+.classpath
+
+# ==================== Python 字节码与打包产物 ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+sdist/
+wheels/
+pip-log.txt
+
+# ==================== 虚拟环境 ====================
+.venv/
+venv/
+env/
+ENV/
+
+# ==================== 测试与类型检查缓存 ====================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+
+# ==================== 环境变量与密钥 ====================
+# 严禁提交 DASHSCOPE_API_KEY 等敏感信息
+.env
+.env.*
+!.env.example
+
+# ==================== 临时文件与日志 ====================
+*.tmp
+*.bak
+.cache/
+logs/
+*.log
+
+# ==================== 项目运行时生成产物 ====================
+# Chroma 向量库持久化目录（由 rag/knowledge_base.py 构建）
+chroma_db/
+# 知识库文件 MD5 去重记录（运行时生成）
+md5.txt
+# Streamlit 本地配置与密钥
+.streamlit/secrets.toml
+
+# ==================== Jupyter Notebook（可选） ====================
+.ipynb_checkpoints/
